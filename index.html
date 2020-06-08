@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+<head>	
+<meta name="wot-verification" content="79dff8775bcff6ede825"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168234876-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168234876-1');
+</script>
+
+<meta charset="utf-8"/>
+    <title>Smug Hat Kid</title>
+	<style>
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+.body {
+
+    font-family: Arial;
+
+    padding: 10px;
+
+    background: #f1f1f1;
+
+}
+
+
+
+/* Header/Blog Title */
+
+.header {
+
+    padding: 30px;
+
+    text-align: center;
+
+    background: white;
+
+}
+
+
+
+    .header h1 {
+
+        font-size: 50px;
+
+    }
+
+
+
+/* Style the top navigation bar */
+
+.topnav {
+
+    overflow: hidden;
+
+    background-color: #333;
+
+    font-family: Arial;
+
+}
+
+
+
+    /* Style the topnav links */
+
+    .topnav a {
+
+        float: left;
+
+        display: block;
+
+        color: #f2f2f2;
+
+        text-align: center;
+
+        padding: 14px 16px;
+
+        text-decoration: none;
+
+    }
+
+
+
+        /* Change color on hover */
+
+        .topnav a:hover {
+
+            background-color: #ddd;
+
+            color: black;
+
+        }
+
+
+
+/* Create two unequal columns that floats next to each other */
+
+/* Left column */
+
+.leftcolumn {
+
+    float: left;
+
+    width: 75%;
+
+    font-family: Arial;
+
+}
+
+
+
+/* Right column */
+
+.rightcolumn {
+
+    float: left;
+
+    width: 25%;
+
+    background-color: #f1f1f1;
+
+    padding-left: 20px;
+
+    font-family: Arial;
+
+}
+
+
+
+/* Fake image */
+
+.fakeimg {
+
+    background-color: #aaa;
+
+    width: 100%;
+
+    padding: 20px;
+
+}
+
+
+
+/* Add a card effect for articles */
+
+.card {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+}
+
+
+
+/* Clear floats after the columns */
+
+.row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both;
+
+}
+
+
+
+/* Footer */
+
+.footer {
+
+    padding: 20px;
+
+    text-align: center;
+
+    background: #ddd;
+
+    margin-top: 20px;
+
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+    .leftcolumn, .rightcolumn {
+
+        width: 100%;
+
+        padding: 0;
+
+    }
+
+}
+
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+    .topnav a {
+
+        float: none;
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <br>
+    <script>
+        $(document).ready(function () {
+            $('#mute_all').on('click', function () {
+                $('body video, body audio').each(function () {
+                    $(this).prop('muted', true);
+                });
+            });
+
+            $('#unmute_all').on('click', function () {
+                $('body video, body audio').each(function () {
+                    $(this).prop('muted', false);
+                });
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="topnav">
+        <ul>
+
+            <il><a href=index.html>Smug Kid</a></il>
+
+            <il><a href=smug1.html>More Smug</a></il>
+
+            <il><a href=smug2.html>EVEN MORE SMUG</a></il>
+			
+			<il><a href="https://private.smug.cf">Private Site</a></il>
+        </ul>
+    </div>
+
+
+    <div class="header>
+        <h1>SMUG</h1>
+    </div>
+
+    <div class="leftcolumn>
+        <p>more smug</p>
+        <audio id="music" src="https://vgmdownloads.com/soundtracks/a-hat-in-time-ost/nykqlktqem/66%20Scootin%27%20Through%20Clocktowers%20Beneath%20The%20Sea.mp3"></audio>
+        <img src="https://i.ytimg.com/vi/skORqWrnKc8/maxresdefault.jpg" alt="S M U G">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/940588768497022814/7320831675C3807EEF6B2A0459E48A50E099F29C/" alt="S M U G">
+        <div class="tenor-gif-embed" data-postid="13316513" data-share-method="host" data-width="100%" data-aspect-ratio="1.7785714285714287"><a href="https://tenor.com/view/smug-dancing-dance-gif-13316513">Smug Dancing GIF</a> from <a href="https://tenor.com/search/smug-gifs">Smug GIFs</a></div>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <button id="mute_all">Mute all sounds</button> |
+        <button id="unmute_all">Unmute all sounds</button> <br />
+        <button onclick="alert('you now pressed the button!')">hey look it's a button</button>
+        <button onclick="document.getElementById('music').play()">Play some chill music</button>
+        <form method="get" action="https://chromedino.com/">
+            <button type="submit">play a game</button>
+        </form>
+    </div>
+    <div class="body">
+        <p> Hey👋 ladies💁‍♀️ 📷 Would 😍 you 👈 like 👍 to 2️⃣ get 😮 rich 💰💰💰 by running 🏃‍♀️🏃‍♀️ your 👈 own business 👩‍💼💼 from home 🏡 with just ☝ your phone? 📱🤳 Well 🤷‍♀️ you can't. 😂 Get 👏 a 👏 real 👏 job 👏 you 👏 stupid 👏 idiot </p>
+    </div>
+    <video width="854" height="480" controls>
+        <source src="hat.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+        <source src="https://vgmdownloads.com/soundtracks/a-hat-in-time-ost/haxkeqkdxg/34%20Trainwreck%20Of%20Electro%20Swing%20%28Remix%29.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="card">
+        <form>
+            <label for="food">Enter your favorite food:</label><br>
+            <input type="text" id="food" name="food"><br>
+            <label for="drink">Enter your favorite drink:</label><br>
+            <input type="text" id="drink" name="drink">
+            <input type="submit" value="Submit" onclick="alert('your choices have been submitted for federal review')">
+        </form>
+    </div>
+    <br />
+    <br />
+
+    <div class="leftcolumn">
+        <p>so ya like jazz?</p>
+    </div>
+    <div class="rightcolumn">
+        <p>i like jazz, yeah</p>
+    </div>
+    <br />
+    <br />
+    <div class="footer">
+        <h1>this website was made with the help of 15000 enslaved children in africa</h1>
+    </div>
+	
+	
+
+</body>
+</html>
