@@ -14,3 +14,5 @@ All rights belong to Gear For Breakfast for developing the game and its characte
 The site is licensed under an MIT license. You are free to do basically whatever you want with it.
 
 Check out A Hat In Time on Steam! https://store.steampowered.com/app/253230/A_Hat_in_Time/
+
+For the private, password-protected site, (private.smug.cf) use the login test:password
